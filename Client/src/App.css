@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loader-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+  }::-webkit-scrollbar {
+    width: 10px; /* width of the scrollbar */
+    height: 10px; /* height of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #7b7b7b; /* color of the scrollbar thumb */
+    border-radius: 10px; /* rounded corners of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #aaa; /* color of the scrollbar thumb on hover */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f0f0f0; /* color of the scrollbar track */
+  }
